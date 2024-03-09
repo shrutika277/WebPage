@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="flex justify-between items-center px-4 lg:px-12 shadow p-2 fixed top-0 w-full bg-white z-50">
+        <ul>
+            <li>
+                <a href=""><img src="./img/logo.png" class="h-12" alt=""></a>
+            </li>
+        </ul>
+        <div class="hidden lg:block">
+
+            <ul class="flex space-x-3 items-center">
+                <li>
+                    <a href="">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Course
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <button class="bg-indigo-900 text-white rounded p-1 px-5" type="button">
+                        Log In
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <ul class="lg:hidden">
+            <li class="text-red-600 text-xl">
+                <a href="">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="mt-20 lg:flex px-4 lg:px-12 justify-between">
+        <div>
+            <h1 class="text-indigo-900 text-2xl lg:text-4xl font-semibold lg:mt-16">Get Access To Unlimited <br>
+                Resourses!</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                elit. Beatae autem odio voluptate perspiciatis porro <br>
+                vero officia dignissimos eveniet amet corrupti odit quod <br>
+                dolorem labore dolore, sint officiis dolores repudiandae. Cumque?
+            </p><br>
+            <form>
+                <label for="default-search"
+                    class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 " fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <input type="search" id="default-search"
+                        class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white-50 focus:ring-blue-500 focus:border-blue-500  dark:border-gray-600 dark:placeholder-gray-400 dark:text-grey dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Search Mockups, Logos..." required>
+                    <button type="submit"
+                        class="text-white absolute right-2.5 bottom-2.5 bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Search</button>
+                </div>
+            </form>
+
+
+
+        </div>
+
+        <div>
+            <img src="./img/header.svg" class="lg:h-96" />
+        </div>
+
+    </div>
+    <div class="text-indigo-800 text-4xl md:text-center font-semibold">
+        Popular Category
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full ">
+
+        <div class="relative text-center"><i class="fa fa-thin fa-circle fa-5x text-slate-100 pt-9 sticky"> </i>
+            <div>
+                <i class="fa fa-duotone fa-laptop-code fa-2x absolute inset-14 left-15"></i>
+                <h1 class="text-indigo-800 text-2xl font-semibold">Web Development</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur elit. Possimus minima dolor praesentium consectetur eius
+                    similique modi quidem, nihil quaerat quae </p>
+            </div>
+
+
+        </div>
+
+        <div class="relative text-center"><i class="fa fa-thin fa-circle fa-5x text-slate-100 pt-9"></i>
+            <div>
+                <i class="fa fa-light fa-volume-high fa-2x absolute inset-14 left-15"></i>
+                <h1 class="text-indigo-800 text-2xl font-semibold">Digital Marketing</h1>
+                <p>Nesciunt itaque quam. Illum labore, quos doloremque id. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="relative text-center"><i class="fa fa-thin fa-circle fa-5x text-slate-100 pt-9"></i>
+            <div><i class="fa fa-regular fa-mobile fa-3x absolute inset-12 left-15"></i>
+                <h1 class="text-indigo-800 text-2xl font-semibold">Graphics Designing</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur elit. Possimus minima dolor praesentium consectetur eius
+                    similique modi quidem, nihil quaerat quae </p>
+            </div>
+        </div>
+        <div class="relative text-center"><i class="fa fa-thin fa-circle fa-5x text-slate-100 pt-9"></i>
+            <div><i class="fa fa-regular fa-palette fa-2x absolute inset-14 left-15"></i>
+                <h1 class="text-indigo-800 text-2xl font-semibold"> App Development</h1>
+                <p>Nesciunt itaque quam. Illum labore, quos doloremque id. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
+            </div>
+        </div>
+    </div><br>
+    <div class="text-center text-2xl">
+        <h2>_________________________________________________________</h2>
+    </div><br>
+    <div class="text-indigo-800 text-4xl md:text-center font-semibold">
+        Most Popular Courses
+    </div><br>
+    <div class="flex justify-left gap-2">
+        <div class="font-bold text-xl"> All Category</div>
+        <div class="text-xl">UI/UX Design | Web Development | Digital Marketing | App Development</div>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full ml-16 mt-10">
+        <div class="card h-80 w-64 border border-gray-900 rounded-lg">
+            <img src="./img/time.jpg" alt="" class="h-[48%] w-64 rounded-t-lg">
+            <div class="relative">
+                <i class="fa fa-duotone fa-circle-play  absolute left-28 bottom-12 fa-3x text-gray-200"></i>
+              </div><br>
+            <div class="grid">
+                <h1 class="text-xl ml-2.5">Graphics Design</h1>
+                <p class="font-bold text-xl ml-2.5">Fundamental of design & drawings</p>
+            </div>
+            <button
+                class="h-10 text-white mt-5 bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-b-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800 w-64">Join Course</button>
+        </div>
+        <div class="card h-80 w-64 border border-gray-900 rounded-lg">
+          <img src="./img/UX.jpg" alt="" class="h-[48%] w-64 rounded-t-lg">
+          <div class="relative">
+            <i class="fa fa-duotone fa-circle-play  absolute left-28 bottom-12 fa-3x text-gray-200"></i>
+          </div>
+          <br>
+            <div class="grid">
+                <h1 class="text-xl ml-2.5">UI/UX Design</h1>
+                <p class="font-bold text-xl ml-2.5">Interaction The Design & Principle</p>
+            </div>
+            <button
+                class="h-10 text-white mt-5 bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-b-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800 w-64">Join Course</button>
+        </div>
+        <div class="card h-80 w-64 border border-gray-900 rounded-lg">
+           <img src="./img/app.webp" alt="" class="h-[48%] w-64 rounded-t-lg">
+           <div class="relative">
+            <i class="fa fa-duotone fa-circle-play  absolute left-28 bottom-12 fa-3x text-gray-200"></i>
+          </div> <br>
+            <div class="grid">
+                <h1 class="text-xl ml-2.5">App Development</h1>
+                <p class="font-bold text-xl ml-2.5">Fundamental Of Design & Drawing</p>
+            </div>
+            <button
+                class="h-10 text-white mt-5 bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-b-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800 w-64">Join Course</button>
+        </div>
+        <div class="card h-80 w-64 border border-gray-900 rounded-lg">
+            <img src="./img/dm.webp" alt="" class="h-[48%] w-64 rounded-t-lg" >
+            <div class="relative">
+                <i class="fa fa-duotone fa-circle-play  absolute left-28 bottom-12 fa-3x text-gray-200"></i>
+              </div><br>
+            <div class="grid">
+                <h1 class="text-xl ml-2.5">Digital Marketing</h1>
+                <p class="font-bold text-xl ml-2.5">Digital Marketing Of The Landscape</p>
+            </div>
+            <button
+                class="h-10 mt-5 text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-b-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800 w-64">Join Course</button>
+        </div>
+    </div>
+    <div class="text-center font-semibold text-4xl text-indigo-800 mt-10">People Says About Courses</div>
+    <div class="grid grid-cols-3 w-full gap-2 mt-10">
+        <div class="card border border-orange-600 h-72 flex">
+            <img src="./img/bg1.png" alt="" class="h-72">
+            <div class="grid">
+                <h1 class="font-semibold text-4xl text-indigo-800 pt-20">-Prashant Kedar</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis atque vel totam vitae, tenetur
+                    obcaecati et, iusto voluptatem dolor alias at repellat in architecto consequuntur repellendus
+                    dignissimos eaque quia itaque!</p>
+            </div>
+        </div>
+        <div class="card border border-orange-600 h-72 flex ">
+            <img src="./img/bg2.png" alt="" class="h-72">
+            <div class="grid">
+                <h1 class="font-semibold text-4xl text-indigo-800 pt-20">-Ravi Sharma</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis atque vel totam vitae, tenetur
+                    obcaecati et, iusto voluptatem dolor alias at repellat in architecto consequuntur repellendus
+                    dignissimos eaque quia itaque!</p>
+            </div>
+        </div>
+
+        <div class="card border border-orange-600 h-72 flex">
+            <img src="./img/bg3.png" alt="" class="h-72">
+            <div class="grid">
+                <h1 class="font-semibold text-4xl text-indigo-800 pt-20">-Karan Rudra</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis atque vel totam vitae, tenetur
+                    obcaecati et, iusto voluptatem dolor alias at repellat in architecto consequuntur repellendus
+                    dignissimos eaque quia itaque!</p>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-4 bg-indigo-900 h-72 w-full mt-20">
+        <div>
+            <p class="font-bold text-4xl text-orange-600 ml-10 mt-5">Learnit</p>
+
+            <h1 class="font-semibold text-2xl text-white ml-10 mt-5">Seat No.340 <br> New York United
+                States</h1>
+        </div>
+        <div class="text-center">
+            <p class="font-bold text-2xl text-white mt-5">Categories</p>
+            <h1 class="font-semibold text-large text-white mt-7">Web Development</h1>
+
+            <h1 class="font-semibold text-large text-white mt-7">Mobile App</h1>
+
+            <h1 class="font-semibold text-large text-white mt-7"> Graphics Designs </h1>
+
+            <h1 class="font-semibold text-large text-white mt-7"> Degital Marketing</h1>
+        </div>
+        <div class="text-center">
+            <p class="font-bold text-2xl text-white mt-5">Useful Links</p>
+            <h1 class="font-semibold text-large text-white mt-7">Home</h1>
+
+            <h1 class="font-semibold text-large text-white mt-7">Gallery</h1>
+
+            <h1 class="font-semibold text-large text-white mt-7">About</h1>
+
+            <h1 class="font-semibold text-large text-white mt-7">Contact Us</h1>
+        </div>
+        <div class="text-center">
+            <p class="font-bold text-2xl text-white mt-5">Stay Connected!</p>
+            <h1 class="font-semibold text-large text-white mt-7">123-456-7890</h1>
+            <h1 class="font-semibold text-large text-white mt-7">learnit@.com</h1>
+            <button
+                class="h-10 mt-7 text-orange-600 bg-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-orange-300 font-bold rounded-full text-center text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-white w-56">Apply
+                Now!</button>
+        </div>
+    </div>
+</body>
+
+</html>
